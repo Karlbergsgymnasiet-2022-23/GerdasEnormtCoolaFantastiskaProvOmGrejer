@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Provresultat</title>
+</head>
+
+<body>
+  <h1>Provet om säkerheten på webben</h1>
+  <p>Ditt namn: <span id="inputQ0"></span></p>
+  <p>Rätt namn:
+    Kapybara</p>
+
+  <p>Vad betyder GDPR?
+    <br>
+    Ditt svar: <span id="inputQ1"></span>
+  </p>
+
+  <p>Rätt svar: General Data Protection Regulation
+  </p>
+
+  <p>Vad bestämmer GDPR om?
+    <br>
+    Ditt svar: <span id="inputQ2"></span>
+  </p>
+  <p>Rätt svar: GDPR-lagen är en europeisk förordning som innefattar hur data så som personuppgifter ska hanteras inom Europeiska unionen. Den omfattar hur personers integritet ska hanteras. Lagen har obligatoriska regler för hur organisationer och
+    företag får använda personuppgifter på ett lämpligt sätt. Personuppgifter är information som kan indirekt eller direkt kopplas till en person och kan exempelvis bestå av namn, telefonnummer och adress. Denna tillämpas både på internet samt
+    utanför det.
+  </p>
+
+  <p>När ska du använda metoden POST för att skicka data?
+    <br>Ditt svar: <span id="inputQ3"></span>
+  </p>
+  <p>Rätt svar: POST används för att skicka information till en server för att skapa eller uppdatera en resurs.
+  </p>
+
+  <p>När ska du använda metoden GET för att skicka data?
+    <br> Ditt svar: <span id="inputQ4"></span>
+  </p>
+  <p>Rätt svar: GET används för att begära data från en specificerad resurs.
+  </p>
+
+  <p>Ska du som utvecklare lita på användare? Resonera utifrån ett säkerhetsperspektiv!
+    <br> Ditt svar: <span id="inputQ5"></span>
+  </p>
+  <p>Rätt svar:
+    Nej, eftersom vi ej vet användarens intentioner. Användaren kan vilja orsaka fel i mjukvaran eller så vet den ej hur hen ska använda mjukvaran. Då är det bäst att använda metoder för att eliminera potentiella fel. Exempelvis kan användaren vilja
+    hacka programmet eller orsaka andra problem eller rentav okunnig.
+    Det beror på sammanhanget och hur kritiskt känslig informationen är. Men i de flesta sammanhang så är det olämpligt eftersom användaren kan råka använda programvaran i ett olämpligt perspektiv omedvetet eller medvetet. Därför är det bäst som
+    utvecklare att tänka steget före och tillämpa mjukvaran så den är svår eller ej möjlig att bruka på ett skadligt sätt.
+  </p>
+
+  <p>Ska du som användare lita på utvecklare? Resonera utifrån ett säkerhetsperspektiv!
+    <br> Ditt svar: <span id="inputQ6"></span>
+  </p>
+
+  <p>Rätt svar: Man kan lita på utvecklare till viss del, men man ska alltid vara källkritisk mot de sidor man möter på internet. Detta eftersom utvecklare kan vara bedragare eller vilja ta dina uppgifter för sitt eget bästa.
+  </p>
+
+  <p>Hur kan du som utvecklare skydda användares lösenord?
+    <br> Ditt svar: <span id="inputQ7"></span>
+  </p>
+  <p>Rätt svar:
+  <ul>
+    <li>Kryptering</li>
+    <li>Hashning</li>
+    <li>Skapa en säker databas</li>
+    <li>Kräva en viss minimilängd på lösenord</li>
+  </ul>
+  </p>
+
+  <p>Redogör för dessa sätt.
+    <br> Ditt svar: <span id="inputQ8"></span>
+  </p>
+  <p>Rätt svar: Kryptering och hashning gör att data ej kan avläsas så lätt. Minimilängd på lösenord förhindrar att användaren väljer ett för enkelt lösenord som är lätt för hackare att gissa. En säker databas gör att datan skyddas när den lagts till
+    och förhindrar att den råkar läcka ut.
+  </p>
+
+  <p>Hur kan man skapa säkra lösenord?
+    <br> Ditt svar: <span id="inputQ9"></span>
+  </p>
+  <p>Rätt svar: För att skapa säkra lösenord kan man använda lösenordshanterare, eller skriva om ett slumpmässigt ord med versaler, gemener, skiljetecken och siffror.
+  </p>
+
+  <p>Vad är skillnaden mellan kryptering och hashning?
+    <br> Ditt svar: <span id="inputQ10"></span>
+  </p>
+  <p>Rätt svar: Kryptering är en funktion som gör en text oläslig som kan bli läsbar efter att den dekrypterats. Nycklar tillämpas för hur någonting ska krypteras.
+    Hashning är en funktion som gör en text oläslig och som ej kan dekrypteras. Den producerar en uppsättning av tecken utefter en indata.
+
+  </p>
+
+  <p>Beskriv varför det är en dum ide att lagra saker i klartext.
+    <br> Ditt svar:<span id="inputQ11"></span>
+  </p>
+  <p>Rätt svar: Därför att det blir lättare för hackare att ta reda på känsliga uppgifter, vilket man inte vill i de flesta sammanhang. Att lagra något krypterat eller med hash skyddar användarens uppgifter och motverkar att data läcker ut vid
+    hack-attacker.
+  </p>
+
+  <p>Vad är en blacklist?
+    <br> Ditt svar: <span id="inputQ12"></span>
+  </p>
+  <p>Rätt svar: En lista med förbjudna ord eller webbsidor.
+  </p>
+
+  <p>Vad är en whitelist?
+    <br> Ditt svar: <span id="inputQ13"></span>
+  </p>
+  <p>Rätt svar: En lista med tillåtna ord eller webbsidor.
+  </p>
+
+  <p>Vilken är bäst? Att använda sig av blacklist eller whitelist? Resonera utifrån ett säkerhetsperspektiv!
+    <br> Ditt svar:<span id="inputQ14"></span>
+  </p>
+  <p>Rätt svar: ftast är en whitelist mest optimal att använda då det förhindrar otydligheter i programmet. Man vet exakt allt som är tillåtet, medan i en blacklist kan det bli otydligt av vad som egentligen är förbjudet, vilket gör att den kan agera
+    när det inte finns något problem egentligen.
+  </p>
+
+  <p>Beskriv vad som händer vid XSS.
+    <br> Ditt svar:<span id="inputQ15"></span>
+  </p>
+  <p>Rätt svar: Det som händer vid XSS är att man kan anropa egna skrift genom utvecklarens utskrift. Exempelvis kan JavaScript läggas till i en kommentar och orsaka konsekvenser för webbsidor.
+  </p>
+
+  <script type="text/javascript" src="../JavaScript/script.js">
+
+  </script>
+</body>
+
+</html>
